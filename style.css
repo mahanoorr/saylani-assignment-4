@@ -1,0 +1,89 @@
+.mybg{
+    background-color: rgb(16, 114, 90);
+}
+.mybgColor
+{
+    color:rgb(16, 114, 90);
+}
+.bg-black
+{
+    background-color: black!important;
+}
+.logo
+{
+    width: 100px;
+    height:70px;
+    margin-left: 140px;
+}
+@media screen and (max-width : 400px)
+{
+    .logo
+    {
+        width: 100px;
+        height:70px;
+        margin: auto;
+    }
+}
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+/* .navbar{
+    background-color: black!important;
+} */
+.news{
+    background-color:rgb(55, 202, 165);
+    margin-top: 20px;
+    color: white;
+    height: 35px;
+    width: 60%;
+    margin: auto;
+}
+.footer{
+    background-color: black;
+    display: block;
+    height: 400px;
+    width: 100%;
+    margin-top: 120px;
+    display: flex;
+}
+.num{
+    background-color:  black;
+    width: 20%;
+    margin-left: 200px;
+    height: 350px;
+}
+.links{
+    background-color:  black ;
+    width: 30%;
+    margin-left: 20px;
+    height: 250px;
+    margin-top: 20px;
+
+}
+.contact{
+    background-color: black;
+    width: 30%;
+    margin-left: 20px;
+    height: 250px;
+    margin-top: 20px;
+
+}
+.card{
+    width: 18rem;
+}
+@media only screen and (max-width: 768px)
+{
+    .card
+    {
+        margin: 5% auto 5% auto;
+    }
+}
+.otherPages
+{
+    width: 50%;
+    text-align: center;
+    opacity: 0.5;
+    background-color: rgb(127, 179, 120);
+    margin-left: 400px;
+    margin-top: 50px;
+}
